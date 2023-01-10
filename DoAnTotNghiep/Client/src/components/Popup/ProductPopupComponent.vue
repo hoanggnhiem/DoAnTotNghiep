@@ -182,7 +182,7 @@ export default {
         return{
             checkValidate : false,
             product : {
-                ProductId : "",
+                //thêm mới không cần gán Id
                 ProductName : "",
                 CategoryID : "",
                 Price : 0,
@@ -411,6 +411,7 @@ export default {
         */
         btnSaveClick(){
             try {
+                
                 var me = this;
                 this.checkValidate = true;
                 var dialogContent =  this.$refs.contentPopup;

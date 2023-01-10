@@ -14,7 +14,7 @@ namespace NXHOANG.ApplicationCore.Entity
         /// <summary>
         /// Id sản phẩm
         /// </summary>
-        public Guid ProductId { get; set; }
+        public Guid? ProductId { get; set; }
 
         /// <summary>
         /// Tên sản phẩm
